@@ -10,7 +10,7 @@ from multiprocessing import Process
 from azure.core.exceptions import HttpResponseError
 from azure.identity import ClientSecretCredential
 from azure.mgmt.network import NetworkManagementClient
-from azure.mgmt.network.v2022_01_01.models import SecurityRuleAccess, SecurityRuleDirection, SecurityRuleProtocol
+from azure.mgmt.network.v2022_05_01.models import SecurityRuleAccess, SecurityRuleDirection, SecurityRuleProtocol
 
 
 class AviatrixException(Exception):
